@@ -5,7 +5,9 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 
 # ─── CONFIGURATION ───────────────────────────────────────
-PARAM_DIR    = r"C:\Users\Asus\Documents\FRI\4. godina\2. semestar\Napredna računarska grafika\Seminarska\parameters"
+# Change to parameters folder path!
+# Example: C:\Users\Asus\Documents\FRI\4. godina\2. semestar\Napredna računarska grafika\Seminarska\parameters
+PARAM_DIR    = r""
 NUM_COLUMNS  = 2
 
 # ─── LIST OF PARAMETERS ───────────────────────────────────

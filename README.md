@@ -10,7 +10,7 @@ This repository contains two main scripts:
 ## Prerequisites
 
 1. **Blender**  
-   - Version 3.0 or newer (tested on 3.x).  
+   - Version 3.0 or newer.  
    - Ensure you can launch Blender normally from your desktop or command line.  
 2. **System Python** (for `params.py`)  
    - Python 3.7+ with the **Tkinter** library installed (for the GUI).  
@@ -69,13 +69,17 @@ Seminarska/
 1. Ensure you have at least one JSON file in `parameters/`.
 2. Open **Blender** and load `script.blend`.
 3. In the Text Editor panel inside Blender, open the embedded `logs.py` text block.
-4. At the top of `logs.py`, set the correct paths:
+4. At the top of `logs.py` and `params.py`, set the correct paths:
    ```python
    SEMINARSKA_DIR = r"C:\Users\YourUser\Path\to\Seminarska"
    PARAM_DIR      = os.path.join(SEMINARSKA_DIR, "parameters")
    OUTPUT_BLEND_FOLDER = os.path.join(SEMINARSKA_DIR, "blends")
    OUTPUT_GLB_FOLDER   = os.path.join(SEMINARSKA_DIR, "glbs")
    TEXTURES_DIR = os.path.join(SEMINARSKA_DIR, "textures")
+   
+   
+   
+   PARAM_DIR    = r"C:\Users\YourUser\Path\to\Seminarska\parameters"
    ```
 5. Save the Text Block (Ctrl+S in the Text Editor).
 6. With no objects selected, click **Run Script** (or press Alt+P) in the Text Editor.
